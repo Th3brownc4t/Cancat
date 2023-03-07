@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Holyfat;
+    src: url(../Fonts/Holyfat.ttf);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(../Images/fondo1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.temas{
+    list-style:none;
+    font-size: 20px;
+}
+.temas :hover{
+    border-bottom: solid 1px blue;
+    color: blue !important;
+}
+.titulo{
+    color: #00db00 !important;
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0.596);
+    padding: 1rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    font-family: Holyfat;
+    text-align: center;
+    border-radius: 20px;
+}
+.linea{
+    list-style: none;
+    height: 1px;
+    background-color: black;
+    opacity: 25%;
+}
+.color:hover{
+    background-color: #00db00;
+    background-size: contain;
+    border-radius: 10px;
+}
+.barra a:hover{
+    color: white !important;
+}
+.texto{
+    color: #159dac;
+    font-weight: 600;
+}
+.inscribete{
+    width: 200px;
+    height: 80px;
+    border-radius: 100%;
+    border: none;
+    background-color: #00db00;
+}
+.inscribete:hover{
+    background-color: white;
+    color: black !important;
+    transition: 0.5s;
+}
+.letra{
+    font-family: Holyfat;
+    font-size: 40px;
+    transform: translateY(10px);
+}
+.parrafo{
+    background-color: #00db00ce;
+}
